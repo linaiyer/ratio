@@ -99,7 +99,8 @@ You don't follow back (they follow you) (1)
 | Problem | Fix |
 |---|---|
 | `No such file or directory` | The file path is wrong. Drag the file into Terminal instead of typing the path. |
-| It prints the usage message instead of results | You need exactly two file arguments: followers first, following second. |
+| It prints the usage message instead of results | You need exactly two file arguments: followers first, following second. Put a **space** between them. `'a.html''b.html'` with no space counts as one argument. |
+| `can't open file '.../3'` | You typed `python 3` with a space. It's `python3`, all one word. |
 | The counts look too low | Make sure you included every `followers_N.html` file, separated by commas. |
 | The lists look backwards | You probably swapped the files. Followers goes first. |
 
